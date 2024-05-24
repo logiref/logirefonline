@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiRefOnline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>LogiRefOnline</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenue sur LogiRefOnline</h2>
+            <h4>Votre référence en calculs en ligne, depuis 2019.</h4>
+            <form id="birthdate-form">
+                <label for="day">Jour de naissance :</label>
+                <input type="number" id="day" name="day" min="1" max="31" required>
+                <br>
+                <label for="month">Mois de naissance :</label>
+                <input type="number" id="month" name="month" min="1" max="12" required>
+                <br>
+                <label for="year">Année naissance :</label>
+                <input type="number" id="year" name="year" required>
+                <br>
+                <label for="calc-year">Année de calcul :</label>
+                <input type="number" id="calc-year" name="calc-year" required>
+                <br>
+                <button type="submit">Valider</button>
+                <button id="print-button">Imprimer</button>
+
+            </form>
+            <table>
+                <tr>
+                    <th>Maison 1</th>
+                    <th>Maison 2</th>
+                    <th>Maison 3</th>
+                    <th>Maison 4</th>
+                    <th>Maison 5</th>
+                    <th>Maison 6</th>
+                    <th>Maison 7</th>
+                    <th>Maison 8</th>
+                    <th>Maison 9</th>
+                    <th>Maison 10</th>
+                    <th>Maison 11</th>
+                    <th>Maison 12</th>
+                    <th>Maison 13</th>
+                </tr>
+                <tr>
+                    <td id="maison1"></td>
+                    <td id="maison2"></td>
+                    <td id="maison3"></td>
+                    <td id="maison4"></td>
+                    <td id="maison5"></td>
+                    <td id="maison6"></td>
+                    <td id="maison7"></td>
+                    <td id="maison8"></td>
+                    <td id="maison9"></td>
+                    <td id="maison10"></td>
+                    <td id="maison11"></td>
+                    <td id="maison12"></td>
+                    <td id="maison13"></td>
+                </tr>
+            </table>
+       
+            <section id="images-row-maison12">
+                <!-- Cette section sera remplie dynamiquement avec les images -->
+            </section>
+
+       
+            <section id="images-row-maison618">
+                <!-- Cette section sera remplie dynamiquement avec les images -->
+            </section>
+       
+        </section>
+
+        <section id="images-row">
+
+        </section>
+
+
+        <section id="images-row-maison7310">
+            <!-- Cette section sera remplie dynamiquement avec les images -->
+        </section>
+
+        <section id="images-row-maison11">
+            <!-- Cette section sera remplie dynamiquement avec les images -->
+        </section>
+
+    </main>
+    <footer>
+        <p>"Je ne suis pas parfait, mais je tends vers le zéro défaut."</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.1.1/dist/confetti.min.js"></script>
+
+</body>
+</html>

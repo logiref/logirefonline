@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+/* Masquer les éléments h2 et h4 lors de l'impression */
+@media print {
+    h2, h4 {
+        display: none;
+    }
+}
+
+
+/* Masquer les boutons et le footer lors de l'impression */
+@media print {
+    button,
+    footer {
+        display: none;
+    }
+}
+
+/* Masquer les détails d'impression */
+@media print {
+    /* Masquer les informations d'en-tête et de pied de page */
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* Masquer les liens d'URL */
+    a::after {
+        content: none !important;
+    }
+}
+
+
+header {
+    background-color: #FFD1DC; /* Rose pâle */
+    color: black;
+    padding: 3px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff9900;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#images-row {
+    margin-bottom: 50px; /* Ajustez la valeur selon vos besoins */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+#images-row img {
+    display: inline-block; /* Permet de centrer les images */
+}
+
+
+#images-row-maison618 {
+    margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+#images-row-maison618 img {
+    display: inline-block; /* Permet de centrer les images */
+}
+
+
+#images-row-maison12 {
+    margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+#images-row-maison12 img {
+    display: inline-block; /* Permet de centrer les images */
+}
+
+
+#images-row-maison7310 {
+    margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+#images-row-maison7310 img {
+    display: inline-block; /* Permet de centrer les images */
+}
+
+#images-row-maison11 {
+    margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+#images-row-maison11 img {
+    display: inline-block; /* Permet de centrer les images */
+}
+
+
+#images-row img.maison6 {
+    transform: rotate(-20deg); /* Inclinaison de 20 degrés vers la gauche */
+}
+
+
+.medium-image {
+    width: 100px; /* Taille moyenne */
+    height: auto;
+    margin-right: 10px; /* Espacement entre les images */
+}
