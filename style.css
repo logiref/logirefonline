@@ -16,6 +16,22 @@ h1 {
 }
 
 
+/* Augmenter la taille des boutons */
+button {
+    font-size: 16px; /* Définissez la taille de la police */
+    padding: 10px 20px; /* Définissez le remplissage pour augmenter la taille du bouton */
+    margin: 10px;
+
+}
+
+/* Augmenter la taille des champs de formulaire */
+input[type="text"],
+select {
+    font-size: 16px; /* Définissez la taille de la police */
+    padding: 40px; /* Définissez le remplissage pour augmenter la taille du champ */
+}
+
+
 /* Masquer les boutons et le footer lors de l'impression */
 @media print {
     button,
@@ -76,13 +92,13 @@ form label {
 }
 
 form input {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 table {
-    width: 100%;
-    margin-top: 20px;
+    width: 80%;
     border-collapse: collapse;
+    margin: 0 auto; /* Centrer le tableau horizontalement */
 }
 
 table, th, td {
@@ -113,11 +129,23 @@ footer {
     display: inline-block; /* Permet de centrer les images */
 }
 
+#images-row img:last-child  {
+    margin-left: 50px;
+    }
+
 
 #images-row-maison618 {
     margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
     text-align: center; /* Centrer le contenu horizontalement */
 }
+
+#images-row-maison618 img:last-child  {
+margin-left: 50px;
+}
+
+#images-row-maison618 img:first-child  {
+    margin-right: 50px;
+    }
 
 #images-row-maison618 img {
     display: inline-block; /* Permet de centrer les images */
@@ -142,6 +170,15 @@ footer {
 #images-row-maison7310 img {
     display: inline-block; /* Permet de centrer les images */
 }
+
+#images-row-maison7310 img:last-child  {
+    margin-left: 50px;
+    }
+    
+    #images-row-maison7310 img:first-child  {
+        margin-right: 50px;
+        }
+    
 
 #images-row-maison11 {
     margin-bottom: 20px; /* Espacement entre les deux lignes d'images */
